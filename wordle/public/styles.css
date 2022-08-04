@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+.words {
+    width: 100%;
+}
+
+.word {
+    display: flex;
+    justify-content: center;
+}
+
+.char {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 2px;
+    
+    /* center chars */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 64px;
+
+    background: white;
+}
+
